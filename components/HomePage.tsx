@@ -49,11 +49,11 @@ const HomePage: React.FC<HomePageProps> = ({ setCurrentPage }) => {
       {/* Projects Section */}
       <section id="projects">
         <h2 className="text-3xl md:text-4xl font-bold text-white text-center mb-12 fade-in">
-          Featured Projects
+          Featured Project
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div className="flex flex-col md:flex-row flex-wrap gap-8 justify-center">
           {PROJECTS.map((project, index) => (
-            <div key={project.title} style={{ animationDelay: `${index * 0.2}s` }} className="fade-in">
+            <div key={project.title} style={{ animationDelay: `${index * 0.2}s` }} className="fade-in w-full md:w-[100%] max-w-xl">
                 <ProjectCard project={project} />
             </div>
           ))}
