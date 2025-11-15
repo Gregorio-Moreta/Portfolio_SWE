@@ -25,7 +25,7 @@ const AboutPage: React.FC = () => {
       <section className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12 items-center">
         <div className="md:col-span-1">
           <img 
-            src={`public/images/Greg.jpg`} 
+            src={`/images/Greg.jpg`} 
             alt="Gregorio Moreta"
             className="rounded-full w-48 h-48 md:w-64 md:h-64 mx-auto object-cover shadow-lg shadow-sky-900/50 border-4 border-slate-700"
           />

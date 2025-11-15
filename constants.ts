@@ -9,7 +9,7 @@ export const PROJECTS: Project[] = [
   {
     title: "The Music Bugle",
     description: "A dynamic music article website with a custom CMS migration, Stripe integration for donations, and a third-party commenting system to foster user engagement.",
-    imageUrl: "public/images/themusicbugle.png",
+    imageUrl: "images/themusicbugle.png",
     tags: ["TypeScript", "Next.js", "React", "Sanity CMS", "Tailwind CSS", "Stripe"],
     liveUrl: "https://themusicbugle.net/",
     codeUrl: "https://github.com/NJL611/Music_Bugle",
